@@ -20,7 +20,7 @@ The widget keeps the token in its state until the user is signed out. If an conv
 ### Dynamic imports path at runtime
 `dixaPublicPath` is the globally defined variable that will be evaluated at runtime. `window.dixaPublicPath` is the name of a variable with a string value that represents a path / URL that will be used for dynamically importing of chunks.
 
-For example, if default URL is `https://widget.dixa.io/assets/scripts/javascript/`, one of the chunk name is eg. `main.[hash].js`. Changing the 'window.dixaPublicPath' variable value: to eg. `https://mydomain.com/folder/` result in the chunk file would fetched from `https://mydomain.com/folder/main.[hash].js`.
+For example, if default URL is `https://widget.dixa.io/assets/scripts/javascript/`, one of the chunk name is eg. `main.[hash].js`. Changing the ` window.dixaPublicPath` variable value: to eg. `https://mydomain.com/folder/` result in the chunk file would fetched from `https://mydomain.com/folder/main.[hash].js`.
 
 ```javascript
 // The chunk will be fetched from https://mydomain.com/folder/main.[hash].js
